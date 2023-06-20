@@ -10,7 +10,7 @@ type CartItemProps = {
 }
 
 export function CartItem({ id, quantity }: CartItemProps) {
-  const { state, dispatch } = useContext(AppContext);
+  const { dispatch } = useContext(AppContext);
   const item = storeItems.find(i => i.id === id)
   if (item == null) return null
 

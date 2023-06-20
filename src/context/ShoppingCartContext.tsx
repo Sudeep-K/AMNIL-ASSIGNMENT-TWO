@@ -19,6 +19,7 @@ const AppContext = createContext<{
   closeCart: () => null,
   });
 
+// @ts-ignore
 const AppProvider: React.FC = ({ children }) => {
   const [state, dispatch] = useReducer(ShoppingCartReducer, []);
   const [isOpen, setIsOpen] = React.useState(false);

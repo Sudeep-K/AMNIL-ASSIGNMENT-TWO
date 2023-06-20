@@ -1,11 +1,10 @@
-import React from 'react'
 import { Navbar, Container, Nav, Button } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 import { useContext } from 'react';
 import { AppContext } from '../context/ShoppingCartContext';
 
 const NavBar = () => {
-    const { state, openCart, closeCart } = useContext(AppContext);
+    const { state, openCart } = useContext(AppContext);
     const quantity = state.reduce((acc, item) => acc + item.quantity, 0);
   return (
     <Navbar sticky='top' className='bg-white shadow-sm mb-3'>
