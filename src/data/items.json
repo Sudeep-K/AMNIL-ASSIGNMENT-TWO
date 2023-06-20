@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Tailored Pant, The Affluent Club Nepal",
+        "price": 32.0,
+        "imgUrl": "/tailoredpant.png"
+    },
+    {
+        "id": 3,
+        "name": "Nepal Skyline Hoodie",
+        "price": 99.44,
+        "imgUrl": "/skylinehoodie.png"
+    },
+    {
+        "id": 4,
+        "name": "Jordan Low Paris",
+        "price": 144.99,
+        "imgUrl": "/jordanlowparis.png"
+    },
+    {
+        "id": 2,
+        "name": "'Woven from hundreds of flowers' hoodie",
+        "price": 69.99,
+        "imgUrl": "/hoodie.png"
+    }
+]
